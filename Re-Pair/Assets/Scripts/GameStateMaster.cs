@@ -30,6 +30,8 @@ public class GameStateMaster : Singleton<GameStateMaster> {
     IEnumerator Game() {
         yield return new WaitForSeconds(1.5f);
         StartCoroutine(TransitionScene(1));
+		yield return new WaitForSeconds(1.5f);
+		GridLoc.Instance.SetTileMap();
 		GridManager.Instance.InitialSetup();
     }
 

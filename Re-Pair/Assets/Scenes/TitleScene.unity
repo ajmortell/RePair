@@ -502,6 +502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4e1997ca33640241ab8e5cdeb2d4840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grid: {fileID: 8491894804918705960, guid: db89cd9b98c48c140b034a8734e8cb52, type: 3}
+  tilemap: {fileID: 0}
+  tileWorldLocations: []
   A1: {x: -112, y: 112}
   A2: {x: -112, y: 80}
   A3: {x: -112, y: 48}
@@ -586,7 +589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607104064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.069694, y: -16.821259, z: -732.46875}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -618,13 +621,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad65cbc79e452c4aaf6dfb9895c406d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theGame: {fileID: 1653778646208411219, guid: 58a1d1d0c5ba64547a2f1f327ed9d032, type: 3}
   whiteKing: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}
   whiteMortar: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}
   whiteArtillery: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}
-  whiteTank: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
+  whiteTank: {fileID: 8300945330331785871, guid: 889b7da56f69ed441a0f4fd8643a3011,
     type: 3}
   whiteTankDestroyer: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}
@@ -636,7 +640,7 @@ MonoBehaviour:
     type: 3}
   blackArtillery: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}
-  blackTank: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
+  blackTank: {fileID: 4989141551541477212, guid: 28f5da75a9d630c4d8ec4d3218dfadc5,
     type: 3}
   blackTankDestroyer: {fileID: 7143901914186309974, guid: 2fc9aae0bbafdd14c86ef2f36a365bf9,
     type: 3}

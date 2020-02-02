@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GridManager : Singleton<GridManager>
 {
 	private Board board;
+	public GameObject theGame;
 	
 	public GameObject whiteKing;
     public GameObject whiteMortar;
@@ -43,6 +44,9 @@ public class GridManager : Singleton<GridManager>
     }
 	
 	public void InitialSetup(){
+		
+		Instantiate(theGame, new Vector3(0,0,0), Quaternion.identity, gameObject.transform);
+		
 		AddPiece(whiteKing, white, GridLoc.Instance.D1);
 		AddPiece(whiteMortar, white, GridLoc.Instance.E1);
 		AddPiece(whiteArtillery, white, GridLoc.Instance.C1);
