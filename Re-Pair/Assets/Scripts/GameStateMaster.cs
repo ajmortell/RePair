@@ -30,6 +30,7 @@ public class GameStateMaster : Singleton<GameStateMaster> {
     IEnumerator Game() {
         yield return new WaitForSeconds(1.5f);
         StartCoroutine(TransitionScene(1));
+		GridManager.Instance.InitialSetup();
     }
 
     IEnumerator Cut() {
