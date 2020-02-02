@@ -5,7 +5,7 @@ public class Drone : Vehicle {
 	
 	// movement
     public override List<Vector2Int> MoveLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
 
         int forwardDirection = GameManager.instance.currentPlayer.forward;
         Vector2Int forwardOne = new Vector2Int(gridPoint.x, gridPoint.y + forwardDirection);
@@ -28,12 +28,12 @@ public class Drone : Vehicle {
             locations.Add(forwardLeft);
         }
 
-        return locations;
+        */return locations;
     }
 	
 	// projectiles
 	public override List<Vector2Int> ShootLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
 
         int forwardDirection = GameManager.instance.currentPlayer.forward;
         Vector2Int forwardOne = new Vector2Int(gridPoint.x, gridPoint.y + forwardDirection);
@@ -56,6 +56,6 @@ public class Drone : Vehicle {
             locations.Add(forwardLeft);
         }
 
-        return locations;
+        */return locations;
     }
 }

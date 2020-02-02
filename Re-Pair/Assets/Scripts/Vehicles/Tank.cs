@@ -7,7 +7,7 @@ public class Tank : Vehicle
     public override List<Vector2Int> MoveLocations(Vector2Int gridPoint) {
         List<Vector2Int> locations = new List<Vector2Int>();
 
-        locations.Add(new Vector2Int(gridPoint.x - 1, gridPoint.y + 2));
+        /*locations.Add(new Vector2Int(gridPoint.x - 1, gridPoint.y + 2));
         locations.Add(new Vector2Int(gridPoint.x + 1, gridPoint.y + 2));
 
         locations.Add(new Vector2Int(gridPoint.x + 2, gridPoint.y + 1));
@@ -18,13 +18,13 @@ public class Tank : Vehicle
 
         locations.Add(new Vector2Int(gridPoint.x + 1, gridPoint.y - 2));
         locations.Add(new Vector2Int(gridPoint.x - 1, gridPoint.y - 2));
-
+*/
         return locations;
     }
 
 	// projectiles
 	public override List<Vector2Int> ShootLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
 
         locations.Add(new Vector2Int(gridPoint.x - 1, gridPoint.y + 2));
         locations.Add(new Vector2Int(gridPoint.x + 1, gridPoint.y + 2));
@@ -38,7 +38,6 @@ public class Tank : Vehicle
         locations.Add(new Vector2Int(gridPoint.x + 1, gridPoint.y - 2));
         locations.Add(new Vector2Int(gridPoint.x - 1, gridPoint.y - 2));
 
-        return locations;
-    }
+        */return locations;
     }
 }

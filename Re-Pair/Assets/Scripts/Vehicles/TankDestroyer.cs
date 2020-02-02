@@ -4,7 +4,7 @@ using UnityEngine;
 public class TankDestroyer : Vehicle {
 	// movement
     public override List<Vector2Int> MoveLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
 
         foreach (Vector2Int dir in RookDirections)
         {
@@ -19,12 +19,12 @@ public class TankDestroyer : Vehicle {
             }
         }
 
-        return locations;
+        */return locations;
     }
 	
 	// projectiles
 	public override List<Vector2Int> ShootLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
 
         foreach (Vector2Int dir in RookDirections)
         {
@@ -39,6 +39,6 @@ public class TankDestroyer : Vehicle {
             }
         }
 
-        return locations;
+        */return locations;
     }
 }

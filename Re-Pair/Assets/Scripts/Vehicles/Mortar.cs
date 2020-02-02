@@ -5,7 +5,7 @@ public class Mortar : Vehicle
 {
 	// movement
     public override List<Vector2Int> MoveLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
         List<Vector2Int> directions = new List<Vector2Int>(BishopDirections);
         directions.AddRange(RookDirections);
 
@@ -22,12 +22,12 @@ public class Mortar : Vehicle
             }
         }
 
-        return locations;
+        */return locations;
     }
 		
 	// projectiles
 	public override List<Vector2Int> ShootLocations(Vector2Int gridPoint) {
-        List<Vector2Int> locations = new List<Vector2Int>();
+        List<Vector2Int> locations = new List<Vector2Int>();/*
         List<Vector2Int> directions = new List<Vector2Int>(BishopDirections);
         directions.AddRange(RookDirections);
 
@@ -44,6 +44,6 @@ public class Mortar : Vehicle
             }
         }
 
-        return locations;
+        */return locations;
     }
 }
